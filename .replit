@@ -1,2 +1,18 @@
-language = "c"
-run = "gcc"
+#include <stdio.h>
+/* Código que imprima meu nome, minha matrícula e meu semestre.
+* Cada um em uma linha. */
+int main (){
+  int matricula, semestre;
+  char nome;
+
+  matricula = 20212160025;
+  semestre = 2;
+  nome = "Jaqueline";
+
+  'Me chamo ${nome} "."\n'
+  'Estou no ${semestre} "semestre."'
+  'Meu numero de matricula ${matricula} "."'
+
+  return 0;
+
+}

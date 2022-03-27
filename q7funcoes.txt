@@ -1,0 +1,23 @@
+/*Crie um programa que tenha uma função ler3Palavras. Essa função deve ler três palavras do
+usuário e retornar as três palavras. A função main deve imprimir essas três palavras.*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main (void)
+{
+	char palavra1[20], palavra2[21], palavra3[22];
+  
+	printf ("Digite a primeira palavra:\n");
+	gets (palavra1);
+  
+	printf ("Digite a segunda palavra:\n");
+	gets (palavra2);
+  
+	printf ("Digite a terceira palavra:\n");
+	gets (palavra3);
+  
+	printf ("As palavras digitadas foram: %s %s %s", palavra1, palavra2, palavra3);
+  
+	return(0);
+}

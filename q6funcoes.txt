@@ -1,0 +1,23 @@
+/*Crie um programa que tenha uma função ler3Letras. Essa função deve ler três letras do usuário
+e retornar as três letras. A função main deve imprimir essas três letras.*/
+
+#include <stdio.h>
+#include <stdlib.h>
+
+main (void)
+{
+	char letra1[1], letra2[2], letra3[3];
+  
+	printf ("Digite a primeira letra:\n");
+	gets (letra1);
+  
+	printf ("Digite a segunda letra:\n");
+	gets (letra2);
+  
+	printf ("Digite a terceira letra:\n");
+	gets (letra3);
+  
+	printf ("As letras digitadas foram: (%s,%s,%s)", letra1, letra2, letra3);
+  
+	return(0);
+}
